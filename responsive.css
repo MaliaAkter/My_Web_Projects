@@ -1,0 +1,289 @@
+/*/1024px/*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1199px) {
+    .nev-bar ul li {
+        margin: 0 5px !important;
+    }
+    
+    .nev-bar ul li a {
+        font-size: 11px !important;
+    }
+
+    .icon-number p {
+        margin-left: -70px !important; 
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        position: relative !important;
+        background-color: #ffffff !important;
+    }
+
+    .header-top .row {
+        flex-wrap: wrap !important; 
+        justify-content: center;
+    }
+
+    .logo, .nev-bar, .icon-number, .group_section {
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .icon-number p {
+        margin: 5px 0 0 0 !important;
+        position: static !important;
+        text-align: center;
+    }
+
+    .slider-title, .slider-title-2, .slider-title-3 {
+        font-size: 2.5rem !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .nev-bar ul {
+        flex-direction: column !important;
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .nev-bar ul li {
+        width: 100%;
+        margin: 0 !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nev-bar ul li a {
+        padding: 12px 0 !important;
+        display: block;
+    }
+
+    .carousel-item {
+        height: 55vh !important;
+        min-height: 320px;
+    }
+
+    .slider-caption-box {
+        text-align: center !important;
+    }
+
+    .feature-section .col-sm-4 {
+        margin-bottom: 30px;
+        border-right: none !important;
+        border-bottom: 1px solid #ddd;
+    }
+    .clint-section .col-sm-3 {
+        width: 100% !important;
+        margin-bottom: 25px;
+        border-bottom: 1px solid rgba(247, 105, 34, 0.2);
+    }
+
+    .clint-section .col-sm-3::after {
+        display: none !important; 
+    }
+    .footer-bottom .text-start, 
+    .footer-bottom .text-end {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        max-width: 120px;
+    }
+
+    .slider-title {
+        font-size: 1.8rem !important;
+    }
+    
+    .group_section a {
+        padding: 10px 20px !important;
+    }
+}
+
+/*/ 768px /*/
+
+@media (max-width: 768px) {
+    .header-top .row {
+        flex-direction: column !important; 
+        text-align: center !important;
+    }
+
+    .logo {
+        margin-bottom: 20px !important;
+    }
+    .nev-bar {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+
+    .nev-bar ul {
+        flex-direction: column !important;
+        padding: 0 !important;
+    }
+
+    .nev-bar ul li {
+        width: 100%;
+        border-bottom: 1px solid #f0f0f0;
+        margin: 0 !important;
+    }
+
+    .nev-bar ul li a {
+        padding: 12px 0 !important;
+        font-size: 14px !important;
+    }
+
+    .icon-number {
+        justify-content: center !important;
+        margin: 15px 0 !important;
+        position: relative;
+    }
+
+    .icon-number p {
+        margin: 5px 0 0 0 !important; 
+        position: static !important;
+    }
+
+    .message-section .row {
+        flex-direction: column !important;
+    }
+
+    .message-section .col-sm-6 {
+        width: 100% !important;
+    }
+
+    .message-section img {
+        max-width: 100% !important;
+        height: auto !important;
+        margin-bottom: 25px !important;
+    }
+
+    .message-text {
+        text-align: center !important;
+        padding: 0 10px;
+    }
+
+    .message-text h2 {
+        font-size: 26px !important;
+    }
+
+    .feature-section .col-sm-4, 
+    .clint-section .col-sm-3 {
+        width: 100% !important;
+        margin-bottom: 30px;
+        border-right: none !important;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom .text-start, 
+    .footer-bottom .text-end {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+}
+
+/*/ 425px /*/
+
+/* ================================================================
+   MOBILE VIEW (425px Width - Large Phones)
+   ================================================================ */
+
+@media (max-width: 425px) {
+    /* ১. হেডার ও লোগো ফিক্স */
+    .header-top {
+        padding: 10px 0 !important;
+    }
+
+    .logo img {
+        max-width: 110px !important; /* লোগো আরও ছোট করা হলো */
+        margin-bottom: 15px;
+    }
+
+    /* ২. মেনুবার (লোগোর নিচে সুন্দর শারি বদ্ধ বাটন) */
+    .nev-bar {
+        width: 100% !important;
+    }
+
+    .nev-bar ul {
+        flex-direction: column !important;
+        padding: 0 !important;
+    }
+
+    .nev-bar ul li {
+        width: 100% !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .nev-bar ul li a {
+        padding: 10px 0 !important;
+        font-size: 13px !important;
+        text-align: center;
+    }
+
+    /* ৩. কল আইকন ও নম্বর (পিসির নেগেটিভ মার্জিন রিসেট) */
+    .icon-number {
+        flex-direction: column !important;
+        margin: 15px 0 !important;
+        gap: 5px;
+    }
+
+    .icon-number p {
+        margin: 0 !important; /* পিসির -96px মার্জিন এখানে ০ করা হয়েছে */
+        position: static !important;
+        font-size: 13px;
+    }
+
+    .icon-number a {
+        font-size: 14px !important;
+    }
+
+    /* ৪. সামাইরা গ্রুপ বাটন */
+    .group_section {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .group_section a {
+        padding: 10px 25px !important;
+        font-size: 12px !important;
+        width: auto !important;
+    }
+
+    /* ৫. মেসেজ সেকশন (MD Message) ফিক্স */
+    .message-section img {
+        max-width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .message-text h2 {
+        font-size: 22px !important;
+        line-height: 1.3 !important;
+    }
+
+    .message-text p {
+        font-size: 14px !important;
+        text-align: left !important; /* মোবাইলে পড়া সহজ হবে */
+    }
+
+    /* ৬. ফুটার */
+    .footer-bottom {
+        text-align: center !important;
+    }
+}
