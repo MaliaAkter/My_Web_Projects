@@ -95,7 +95,7 @@ a { text-decoration: none; transition: 0.3s; }
 }
 
 .clint-section {
-    background: var(--secondary-color);
+    background-image: linear-gradient(rgba(11, 13, 57, 0.7), rgba(11, 13, 57, 0.7)), url('../images/world-global-cartography-globalization-earth-international-concept.jpg');
     padding: 60px 0;
     color: #fff;
     text-align: center;

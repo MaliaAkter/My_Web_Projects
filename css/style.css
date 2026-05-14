@@ -443,7 +443,7 @@ h1, h2, h3, h4 {
 	height: 80px;
 }
 .clint-section{
-	background-image: linear-gradient(rgba(11, 13, 57, 0.7), rgba(11, 13, 57, 0.7)), url('images/world-global-cartography-globalization-earth-international-concept.jpg');
+	background-image: linear-gradient(rgba(11, 13, 57, 0.7), rgba(11, 13, 57, 0.7)), url('../images/world-global-cartography-globalization-earth-international-concept.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom right;
