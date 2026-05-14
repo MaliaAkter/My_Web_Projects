@@ -1,30 +1,30 @@
 
-document.addEventListener("DOMContentLoaded", function() {
-    const phoneInputs = document.querySelectorAll("#phone-input"); // Jodi ekadhik modal thake
+// document.addEventListener("DOMContentLoaded", function() {
+//     const phoneInputs = document.querySelectorAll("#phone-input"); 
     
-    phoneInputs.forEach(input => {
-        window.intlTelInput(input, {
-            initialCountry: "bd",
-            separateDialCode: true,
+//     phoneInputs.forEach(input => {
+//         window.intlTelInput(input, {
+//             initialCountry: "bd",
+//             separateDialCode: true,
             
-            dropdownContainer: document.body, 
-            onlyCountries: ["bd", "us", "gb", "sa", "pl"], 
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-        });
-    });
-});
+//             dropdownContainer: document.body, 
+//             onlyCountries: ["bd", "us", "gb", "sa", "pl"], 
+//             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+//         });
+//     });
+// });
 
 
-window.addEventListener('scroll', function () {
-    const header = document.getElementById('mainHeader');
-    if (header) {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled'); 
-        }
-    }
-});
+// window.addEventListener('scroll', function () {
+//     const header = document.getElementById('mainHeader');
+//     if (header) {
+//         if (window.scrollY > 50) {
+//             header.classList.add('scrolled');
+//         } else {
+//             header.classList.remove('scrolled'); 
+//         }
+//     }
+// });
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -129,5 +129,49 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
         });
+    });
+});
+
+
+function toggleCountryDropdown() {
+    const list = document.getElementById('countryList');
+    if (list.style.display === 'block') {
+        list.style.display = 'none';
+    } else {
+        list.style.display = 'block';
+    }
+}
+
+function setNewCountry(countryCode, dialCode) {
+
+    const mainFlag = document.getElementById('mainFlag');
+    mainFlag.src = `https://flagcdn.com/w20/${countryCode}.png`;
+
+    // Dropdown bondho kora
+    document.getElementById('countryList').style.display = 'none';
+    
+    console.log("Selected Country:", countryCode, "Dial Code:", dialCode);
+}
+
+window.onclick = function(event) {
+    if (!event.target.closest('.flag-selection-area')) {
+        const list = document.getElementById('countryList');
+        if (list) list.style.display = 'none';
+    }
+}
+
+document.querySelectorAll('.accordion-button').forEach(btn => {
+    btn.addEventListener('click', function() {
+        // Shobar icon reset kora (Bondho obosthay « hobe)
+        document.querySelectorAll('.icon-box').forEach(icon => {
+            icon.innerText = "«";
+        });
+
+        // Sudhu jeita open (khola) hobe sheitar icon change hobe
+        setTimeout(() => {
+            if (!this.classList.contains('collapsed')) {
+                this.querySelector('.icon-box').innerText = "→";
+            }
+        }, 10);
     });
 });

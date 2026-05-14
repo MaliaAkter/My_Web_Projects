@@ -1,0 +1,773 @@
+
+:root {
+    --primary-color: #f76922;
+    --secondary-color: #002d5b; 
+    --text-color: #555;
+    --heading-color: #1a1a1a;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+a { text-decoration: none; transition: 0.3s; }
+
+.carousel-item {
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.slider-1 { background-image: url(../images/woman-planning-trip-laptop-while-holding-plane-tickets-passport.jpg); }
+.slider-2 { background-image: url(../images/high-angle-passport-tickets-arrangement.jpg); }
+.slider-3 { background-image:   url(../images/top-view-tourist-objects-frame-with-copy-space.jpg); }
+
+.slider-caption-box {
+    max-width: 700px;
+    color: #fff;
+}
+
+.slider-title, .slider-title-2, .slider-title-3 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.orange-text { color: var(--primary-color); }
+
+.slider-desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-learn-more {
+    padding: 12px 35px;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.feature-section {
+    padding: 80px 0;
+    background: #fff;
+    margin-top: -50px;
+    position: relative;
+    z-index: 5;
+}
+
+.feature-icon img {
+    width: 64px;
+    margin-bottom: 20px;
+}
+
+.feature-content-1 h3, .feature-content-2 h3, .feature-content-3 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.e-con-section, .massanging-section {
+    padding: 80px 0;
+}
+
+.e-con-inner h2, .right-content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.read-more a {
+    color: var(--primary-color);
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.director-img img, .e-con-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.clint-section {
+    background: var(--secondary-color);
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.counter {
+    font-size: 45px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.video-wrapper video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid #eee;
+}
+
+.article-card:hover {
+    transform: translateY(-10px);
+}
+
+.article-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.read-more-btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.industies-section {
+    padding: 80px 0;
+    background: #fdfdfd;
+}
+
+.proud-title {
+    font-weight: 800;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+.logo-slider img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: 0.3s;
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.logo-slider img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* --- Gaps --- */
+.slider-gap, .feature-section-gap, .e-con-inner-gap, .director-gap, .vedio-gap, .card-gap, .industrial-logo-gap {
+    height: 40px;
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .header-top .row {
+        display: flex !important;
+        flex-wrap: wrap !important; 
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-top .col-sm-2:first-child {
+        width: 15% !important;
+    }
+
+    .header-top .col-sm-6 {
+        width: 55% !important;
+    }
+
+    .nev-bar ul {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        justify-content: center !important;
+    }
+
+    .nev-bar ul li a {
+        font-size: 11px !important;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .header-top .col-sm-2:nth-child(3) {
+        width: 15% !important;
+    }
+    
+    .header-top .col-sm-2:nth-child(4) {
+        width: 15% !important;
+    }
+
+    .icon-number {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .icon-number a {
+        font-size: 11px !important;
+        font-weight: 700;
+    }
+
+    .icon-number p {
+        display: none; 
+    }
+
+    .group_section {
+        text-align: right !important;
+    }
+
+    .group_section a {
+        display: inline-block !important;
+        padding: 8px 12px !important;
+        font-size: 10px !important;
+        width: auto !important;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-top .row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .header-top [class*="col-"] {
+        width: 100% !important;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nev-bar ul {
+        justify-content: center !important;
+        gap: 10px;
+    }
+
+    .icon-number {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .icon-number p{
+        margin-left: 15px;
+    }
+    
+    .group_section a {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer-logo{
+        margin: 0 auto;
+        display: table;
+    }
+    .footer-logo img{
+        width: 200%;
+    }
+    .nev-bar ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+     .footer-top-links li{
+        margin: 0 auto;
+        display: table;
+
+    }
+    .social-icons {
+        margin: 0 auto;
+        display: table;
+    }
+    .footer-top-title{
+        text-align: center;
+    }
+    .footer-top-text{
+        text-align: center;
+    }
+    .subscribe-form input {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .header-top .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-top .col-sm-2:first-child {
+        width: 15% !important;
+    }
+
+    .header-top .col-sm-6 {
+        width: 55% !important;
+    }
+
+    .nev-bar ul {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        justify-content: center !important;
+    }
+
+    .nev-bar ul li a {
+        font-size: 11px !important;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .header-top .col-sm-2:nth-child(3) {
+        width: 15% !important;
+    }
+    
+    .header-top .col-sm-2:nth-child(4) {
+        width: 15% !important;
+    }
+
+    .icon-number {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .icon-number a {
+        font-size: 11px !important;
+        font-weight: 700;
+    }
+
+    .icon-number p {
+        display: none; 
+    }
+
+    .group_section {
+        text-align: right !important;
+    }
+
+    .group_section a {
+        display: inline-block !important;
+        padding: 8px 12px !important;
+        font-size: 10px !important;
+        width: auto !important;
+        white-space: nowrap;
+    }
+
+
+    .footer-top-section .offset-md-1 {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Header adjustments */
+    .header {
+        padding: 15px 0;
+    }
+
+    .nev-bar ul li a {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    /* Search Box adjustment */
+    .search-box {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .custom-input {
+        width: 100% !important;
+        border-radius: 5px !important;
+    }
+
+    .btn-container {
+        width: 100%;
+    }
+
+    .custom-search-btn {
+        width: 100%;
+        border-radius: 5px !important;
+    }
+
+    .job-card {
+        padding: 15px;
+    }
+
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+
+    .job-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .job-footer .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+ 
+    .footer-bottom .text-end {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    .footer-bottom .text-start {
+        text-align: center !important;
+    }
+
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    .job-apply-modal-content {
+        padding: 20px !important;
+    }
+
+    .form-label-custom {
+        margin-bottom: 5px;
+    }
+
+    .form-footer-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-cancel, .btn-submit-job {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .job-info-title {
+        font-size: 18px;
+    }
+    
+    .footer-top-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nev-bar ul li {
+        margin: 0 8px;
+    }
+    
+    .nev-bar ul li a {
+        font-size: 13px;
+    }
+
+    .about-content h1, 
+    .network-content h1 {
+        font-size: 30px;
+    }
+
+    .mv-card {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-top .row > div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nev-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nev-bar ul li {
+        margin: 5px 10px;
+    }
+
+    .about-section, .global-network-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .about-divider {
+        margin: 0 auto 20px auto; 
+    }
+
+    .MP-Travels-image, .network-image {
+        margin-bottom: 30px;
+    }
+
+    .mv-card {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom .text-start, 
+    .footer-bottom .text-end {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-content h1, 
+    .network-content h1,
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .icon-number a {
+        font-size: 18px;
+    }
+
+    .country-group-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .country-group-title.invisible {
+        display: none; 
+    }
+
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form button {
+        position: static;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .footer-top-section {
+        text-align: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .Categories-tittle h1 {
+        font-size: 32px;
+    }
+    
+    .category-card {
+        padding: 20px;
+        min-height: 280px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .Categories-section {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .Categories-tittle h1 {
+        font-size: 28px;
+    }
+
+    .RECRUITMENT-section .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-card {
+        margin-bottom: 30px;
+        width: 200%;
+        max-width: 450px; 
+        text-align: center;
+    }
+    .category-card p{
+        width: 100%;
+    }
+
+
+
+    .icon-wrapper, .icon-wrapper-2 {
+        margin: 0 auto 15px auto; 
+    }
+
+    .markets-gap {
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .Categories-tittle h1 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .Categories-text {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .category-card h3 {
+        font-size: 18px;
+    }
+
+    .category-card p{
+        width: 100%;
+    }
+
+
+    .footer-top-section {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .footer-top-links li {
+        margin-bottom: 8px;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form input {
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .subscribe-form button {
+        width: 100%;
+        border-radius: 5px;
+        position: static;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .job-container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .main-job-head {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .job-info-wrapper, .job-apply-area {
+        padding: 30px 0;
+    }
+
+    .job-status-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .actual-job-form .row-layout {
+        margin-bottom: 15px;
+    }
+
+    .combined-input-box {
+        flex-direction: row; 
+    }
+}
+
+@media (max-width: 576px) {
+    .job-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .main-job-head {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .sub-head-text {
+        font-size: 18px;
+    }
+
+    .desc-para, .custom-req-list li {
+        font-size: 14px;
+    }
+
+    .form-main-title {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .actual-job-form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .actual-job-form input, 
+    .actual-job-form textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .resume-upload-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .custom-browse-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bottom-form-actions {
+        display: flex;
+        flex-direction: column-reverse; 
+        gap: 10px;
+    }
+
+    .close-form-btn, .submit-form-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .all-country-list {
+        width: 250px; 
+        left: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .brand-logo-frame img {
+        max-width: 120px;
+    }
+    
+    .publish-time {
+        font-size: 12px;
+    }
+}

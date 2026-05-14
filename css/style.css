@@ -187,9 +187,9 @@ h1, h2, h3, h4 {
 	background-repeat: no-repeat;
 }
 
-.slider-1 { background-image: url(images/woman-planning-trip-laptop-while-holding-plane-tickets-passport.jpg); }
-.slider-2 { background-image: url(images/high-angle-passport-tickets-arrangement.jpg); }
-.slider-3 { background-image: url(images/top-view-tourist-objects-frame-with-copy-space.jpg); }
+.slider-1 { background-image: url(../images/woman-planning-trip-laptop-while-holding-plane-tickets-passport.jpg); }
+.slider-2 { background-image: url(../images/high-angle-passport-tickets-arrangement.jpg); }
+.slider-3 { background-image: url(../images/top-view-tourist-objects-frame-with-copy-space.jpg); }
 
 .slider-caption-box {
 	text-align: left;
@@ -1609,7 +1609,10 @@ h1, h2, h3, h4 {
 }
 
 
-
+.custom-container{
+  max-width: 1156px;
+  margin: 0 auto;
+}
 .job-apply-modal-content {
     background: #fff;
     padding: 30px;
@@ -1659,7 +1662,6 @@ h1, h2, h3, h4 {
     margin-bottom: 25px;
 }
 
-/* ইনপুট ফিল্ড স্টাইল */
 .form-label-custom {
     font-weight: 700;
     color: #333;
@@ -1731,5 +1733,687 @@ h1, h2, h3, h4 {
     padding: 10px 50px;
     border-radius: 5px;
     font-weight: 700;
+}
+.RECRUITMENT_section {
+  text-align: center;
+  padding: 26px 20px;
+}
+.RECRUITMENT_section h1{
+    text-align: center;
+    color: #EF6825;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    height: 45px;
+}
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px; 
+  margin-bottom: 30px;
+}
+.divider-wrapper .line {
+    height: 2px;
+  width: 64px;
+  background-color: #ffbc00; 
+}
+
+
+.divider-wrapper .diamond {
+  width: 14px;
+  height: 14px;
+  background-color: #ffbc00;
+  transform: rotate(45deg);
+}
+
+.divider-wrapper .line-2 {
+  height: 2px;
+  width: 64px;
+  background-color: #ffbc00;
+}
+
+.description-text {
+  color: #6c757d; 
+  font-size: 16px;
+  line-height: 1.6; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  max-width: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.description-section {
+    padding: 9px 0;
+    background-color: #fff;
+}
+
+.job_card {
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.job_card img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 25px;
+}
+.discription_tittle h3 {
+    color: #f16522;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-left: 26px;
+}
+.discription_tittle h3:hover {
+    color: black;
+    transition: color 0.5s ease;
+}
+.description_text{
+    color: #565656; 
+    font-size: 17px; 
+    line-height: 25px; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 115%;
+  padding: 15px 17px;
+}
+
+.description_text-2{
+    color: #565656; 
+    font-size: 17px; 
+    line-height: 25px; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 110%;
+  padding: 21px 30px;
+}
+
+.description_text-3{
+    color: #565656; 
+    font-size: 17px; 
+    line-height: 25px; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 104%;
+  padding: 20px 16px;
+}
+.RECRUITMENT-gap{
+    height: 100px;
+}
+.Process-section{
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.Process-section-2{
+    background-color: #f7f9fb;
+    padding-bottom: 60px;
+}
+.Process-title{
+    padding: 250px 25px;
+}
+.Process-title h2{
+    color: #EF6825;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px 0px; 
+    margin-bottom: 10px;
+}
+
+.line-shape {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.line-shape span {
+    width: 6px;
+    height: 6px;
+    background-color: #0D6EFD; 
+    border-radius: 50%; 
+    display: inline-block;
+}
+
+.line-shape .long-line {
+    width: 50px; 
+    height: 6px;
+    border-radius: 10px; 
+}
+.Process-title {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 50px; 
+    align-self: flex-start; 
+    padding: 300px 25px; 
+}
+
+
+.Process-section .row {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.custom-process-item, 
+.custom-process-item-2 {
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+    width: 100% !important;
+    margin-top: 0 !important; 
+    margin-bottom: 0 !important;
+}
+.accordion-item {
+    margin-bottom: 15px !important;
+}
+.accordion-button {
+    background-color: #fff !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    border: none !important;
+    width: 100% !important;
+    min-height: 55px; 
+}
+
+.icon-box {
+    background-color: #EF6825 !important;
+    color: #fff !important;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.4s ease;
+    transform: rotate(180deg); 
+}
+
+.title-text {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+.accordion-button:not(.collapsed) .icon-box {
+    background-color: #0D6EFD !important;
+    transform: rotate(0deg); 
+}
+
+.accordion-body {
+    padding: 20px 20px 25px 75px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #555;
+    background-color: #f7f9fb !important; /* Exact gray background match */
+}
+
+.accordion-button::after {
+    display: none !important;
+}
+.items-gap{
+    height: 50px;
+}
+
+.tranning-section{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Training-tittle{
+    padding-top: 20px;
+}
+.Training-tittle h1{
+    text-align: center;
+    color: #EF6825;
+    font-family: "Heebo", Sans-serif;
+    font-size: 56px;
+}
+.Training-tittle span{
+    color: black;
+    font-family: "Heebo", Sans-serif;
+    font-weight: 700;
+}
+.custom-training-section { 
+    padding-top: 5px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.training-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 15px; 
+    line-height: 1.6; 
+    color: #444; 
+    max-width: 485px; 
+    margin: 0 auto;
+    font-weight: 500;
+}
+.row {
+    display: flex;
+    align-items: center; 
+}
+
+.content-img img {
+    width: 30%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: table; 
+}
+
+.training-section {
+    padding-left: 20px; 
+    text-align: left;
+}
+
+.training-main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+  font-weight: 700; 
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-top: 45px;
+}
+
+.content-description p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    line-height: 1.7; 
+    color: #444;
+    font-weight: 500;
+    text-align: left; 
+    width: 93%;
+}
+.Categories-section {
+    padding-top: 110px;
+    padding-bottom: 20px; 
+    text-align: center;
+}
+
+.Categories-tittle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Categories-tittle h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EF6825; 
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Categories-tittle::after {
+    content: "";
+    display: block;
+    margin: 10px auto;
+    width: 60px; 
+    height: 6px; 
+
+    background: 
+        radial-gradient(circle, #EF6825 2.5px, transparent 3px) 0px center / 12px 100% no-repeat,
+        radial-gradient(circle, #EF6825 2.5px, transparent 3px) 12px center / 12px 100% no-repeat,
+        linear-gradient(#EF6825, #EF6825) 28px center / 25px 3px no-repeat;
+    
+}
+
+.Categories-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #444;
+    max-width: 479px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.category-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Icon box default style */
+.category-card {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.icon-wrapper {
+    width: 66px;
+  height: 65px;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+
+.icon-wrapper i {
+    font-size: 30px;
+    color: #333; 
+    transition: all 0.4s ease;
+}
+.category-card:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:hover .icon-wrapper {
+    background-color: #EF6825;
+    border-color: #EF6825;
+}
+
+.category-card:hover .icon-wrapper i {
+    color: #ffffff;
+}
+
+.content-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EF6825;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+
+.content-text p {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #57585E;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+  width: 104%;
+}
+.supermarkets-text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #EF6825;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+
+}
+.supermarkets-text p{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #57585E;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+  width: 125%;
+}
+.Engineering-text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #EF6825;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+.Engineering-text p{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #57585E;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+  width: 114%;
+}
+.air-condition-text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #EF6825;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+.air-condition-text p{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #57585E;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+  width: 113%;
+}
+
+.Equipment-text h3{
+        font-family: 'Montserrat', sans-serif;
+    color: #EF6825;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}
+
+.Equipment-text p{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #57585E;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+  width: 101%;
+}
+.icon-wrapper-2 {
+    width: 66px;
+  height: 65px;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    flex-shrink: 0;
+    margin-bottom: 146px;
+}
+
+.icon-wrapper-2 i {
+    font-size: 30px;
+    color: #333; 
+    transition: all 0.4s ease;
+}
+.category-card:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:hover .icon-wrapper-2 {
+    background-color: #EF6825;
+    border-color: #EF6825;
+}
+
+.category-card:hover .icon-wrapper-2 i {
+    color: #ffffff;
+}
+.markets-gap{
+    height: 150px;
+}
+
+.about-section {
+    padding: 80px 0;
+}
+.MP-Travels-image{
+    padding: 80px 0;
+}
+.MP-Travels-image img {
+    width: 100%;
+}
+
+.about-tittle h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #222;
+   margin-top: -42px;
+    padding-left: 84px;
+}
+
+.about-tittle p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.8;
+    margin-top: 27px;
+    text-align: justify;
+    width: 77%;
+    margin-left: 88px;
+}
+
+.about-tittle span {
+    font-weight: 700;
+    color: gray;
+}
+
+.mv-card {
+    padding: 60px 40px;
+    background: #fff;
+    border: 1px solid #f0f0f0; 
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.mv-icon-box {
+    margin-bottom: 25px;
+}
+
+.mv-icon-box i {
+    font-size: 50px;
+    color: #EF6825; 
+    transition: all 0.3s ease;
+}
+
+.mv-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #EF6825; 
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.mv-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.mv-card:hover {
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+}
+
+.mv-card:hover h2 {
+    color: black; 
+}
+
+.mv-card:hover .mv-icon-box i {
+    color: black; 
+    transform: translateY(-5px);
+}
+
+.global-network-section {
+    padding: 80px 0;
+}
+
+.network-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.network-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.network-image img {
+    width: 100%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333;
+}
+
+.section-title h2 b {
+    font-weight: 800;
+}
+
+.country-group-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.country-list {
+    list-style: none;
+    padding: 0;
+}
+
+.country-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0; 
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.country-list li i {
+    color: #FF2D55; 
+    margin-right: 15px;
+    font-size: 18px;
+}
+.country-list li:hover {
+    color: #F2307E;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
