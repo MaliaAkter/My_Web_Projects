@@ -6,7 +6,6 @@
 //         window.intlTelInput(input, {
 //             initialCountry: "bd",
 //             separateDialCode: true,
-            
 //             dropdownContainer: document.body, 
 //             onlyCountries: ["bd", "us", "gb", "sa", "pl"], 
 //             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
@@ -147,7 +146,6 @@ function setNewCountry(countryCode, dialCode) {
     const mainFlag = document.getElementById('mainFlag');
     mainFlag.src = `https://flagcdn.com/w20/${countryCode}.png`;
 
-    // Dropdown bondho kora
     document.getElementById('countryList').style.display = 'none';
     
     console.log("Selected Country:", countryCode, "Dial Code:", dialCode);
@@ -162,12 +160,10 @@ window.onclick = function(event) {
 
 document.querySelectorAll('.accordion-button').forEach(btn => {
     btn.addEventListener('click', function() {
-        // Shobar icon reset kora (Bondho obosthay « hobe)
         document.querySelectorAll('.icon-box').forEach(icon => {
             icon.innerText = "«";
         });
 
-        // Sudhu jeita open (khola) hobe sheitar icon change hobe
         setTimeout(() => {
             if (!this.classList.contains('collapsed')) {
                 this.querySelector('.icon-box').innerText = "→";

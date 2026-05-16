@@ -83,7 +83,7 @@ a { text-decoration: none; transition: 0.3s; }
 }
 
 .read-more a {
-    color: var(--primary-color);
+    color: black;
     font-weight: 700;
     border-bottom: 2px solid var(--primary-color);
 }
@@ -260,7 +260,8 @@ a { text-decoration: none; transition: 0.3s; }
     }
     
     .group_section a {
-        min-width: 200px;
+        width: 111%;
+        text-align: center;
     }
 }
 
