@@ -30,7 +30,7 @@ a { text-decoration: none; transition: 0.3s; }
 }
 
 .slider-title, .slider-title-2, .slider-title-3 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -41,6 +41,7 @@ a { text-decoration: none; transition: 0.3s; }
 .slider-desc {
     font-size: 18px;
     margin-bottom: 30px;
+    width: 90%;
 }
 
 .btn-learn-more {
@@ -85,7 +86,7 @@ a { text-decoration: none; transition: 0.3s; }
 .read-more a {
     color: black;
     font-weight: 700;
-    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 30px;
 }
 
 .director-img img, .e-con-image img {
@@ -106,7 +107,13 @@ a { text-decoration: none; transition: 0.3s; }
     font-weight: 800;
     color: var(--primary-color);
 }
-
+.vedio-tittle h2{
+    font-size: 30px;
+    width: 100%;
+}
+.vedio-tittle p{
+    width: 100%;
+}
 .video-wrapper video {
     width: 100%;
     border-radius: 10px;
