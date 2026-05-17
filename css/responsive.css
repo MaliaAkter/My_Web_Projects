@@ -684,6 +684,9 @@ a { text-decoration: none; transition: 0.3s; }
     width: 100%;
 }
 .icon-box{
+    margin-bottom: 0px;
+}
+..info-card .icon-box{
     color: white;
     margin-bottom: -49px;
 }
